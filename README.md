@@ -7,12 +7,10 @@
 
 ## Introduction
 
-In this project, I examined a dataset of major power outages in the U.S. from January 2000 to July 2016. These major outages are defined by the Department of Energy to have impacted at least 50,000 customers, or caused an unplanned energy demand loss of at least 300 MegaWatts. This dataset was accessed from Purdue University’s Laboratory for Advancing Sustainable Critical Infrastructure, available at [Purdue LASCI](https://engineering.purdue.edu/LASCI/research-data/outages).
+For my analysis, I looked at a dataset of major power outages in the U.S. from January 2000 to July 2016. These major outages are defined by the Department of Energy to have impacted at least 50,000 customers, or caused an unplanned energy demand loss of at least 300 MegaWatts. This dataset was accessed from Purdue University’s Laboratory for Advancing Sustainable Critical Infrastructure, available at [Purdue LASCI](https://engineering.purdue.edu/LASCI/research-data/outages).
 
-The dataset includes information about the major outages, as well as geographical, climatic, land-use characteristics, electricity consumption patterns, and economic characteristics of the states affected by the outages.
 
-I aim to answer the question: **What are the characteristics of major power outages with higher severity and how can we use these to predict the Duration of severe Outage?**  
-By building a predictive model, I hope to help energy companies enact preventative measures.
+In my analysis, I aim to answer the question: **What are the characteristics of major power outages with higher severity and how can we use these to predict the Duration of severe Outage?**  In answering this question, I hope to have some positive impact in improving predictive measures in determining Outage length and severity, 
 
 ---
 
