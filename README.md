@@ -60,19 +60,10 @@ Steps I took in cleaning my data for analysis:
 
 #### Univariate Analysis:
 
-In my first Univariate Analysis I wanted to look at the distribution of our target variable `OUTAGE.DURATION` just to see the ranges of the values we are predicting:
+In my first Univariate Analysis I wanted to look at the distribution of our target variable `OUTAGE.DURATION` just to see the ranges of the values we are predicting. Initially I took the distribution of the entire variable but the outliers were so great that it was hard to see the distribution of the entire variable. Therefore for this plot, I filtered to only include `OUTAGE.DURATION`'s in the IQR of the variable:
 
 <iframe
   src="assets/duration_distribution_univariate.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
-
-I then wanted to take a look at the distribution of Anomaly  as I have a hypothesis early on that weather is going to play a large part in this analysis: 
-
-<iframe
-  src="assets/anomaly_level_univariate.html"
   width="800"
   height="600"
   frameborder="0"
